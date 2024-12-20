@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    font-family: arial, sans-serif;
+    line-height: 1.6;
+}
+.container {
+    width: 90%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+/* estilo do cabeçario */
+header {
+    padding: 16px 0;
+}
+
+header h1{
+    margin: 0;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 2rem;
+}
+nav ul, nav ul a {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul a:hover {
+    color: #e4d500;
+    transition: color 0.4s;
+    font-size: 17px;
+}
+
+header nav li {
+    display: inline;
+    margin: 0 15;
+}
+/* Estilo sessão Sobre */
+#about {
+    padding: 50px 0;
+}
+#about h2 {
+    font-size: 2rem;
+    color: #e4d500;
+    margin-bottom: 20px;
+}
+
+#about h3 {
+    font-size: 1.5rem;
+    color: #e4d500;
+    margin-bottom: 10px;
+}
+.gym-facade {
+    width: 100%;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+/* */
